@@ -1,35 +1,20 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react'
+import { Twirl as Hamburger } from 'hamburger-react'
 
 export default function Navbar() {
-  return <navbar className="navbar" role="navigation" aria-label="main navigation">
-    <div className="navbar-brand">
-      <button className="navbar-burger" aria-label="menu" aria-expanded="false">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </button>
-    </div>
-    <div className="navbar-menu">
-      <div className="navbar-start">
-        <button className="navbar-item is-primary">
-          <Link to={'/hannahakhtar.github.io'}>Home</Link>
-        </button>
-      </div>
-      <div className="navbar-end">
-        <button className="navbar-item is-primary">
-          <Link to={'/hannahakhtar.github.io/about'}>About</Link>
-        </button>
-        <button className="navbar-item is-primary">
-          <Link to={'/hannahakhtar.github.io/portfolio'}>Portfolio</Link>
-        </button>
-        <button className="navbar-item is-primary">
-          <Link to={'/hannahakhtar.github.io/experience'}>Experience</Link>
-        </button>
-        <button className="navbar-item is-primary">
-          <Link to={'/hannahakhtar.github.io/contact'}>Contact</Link>
-        </button>
+  const [isOpen, setOpen] = useState(false)
+
+  return <nav>
+    <div className="navbar">
+      <Hamburger toggled={isOpen} toggle={setOpen} label="Show menu" />
+      <div className={isOpen ? 'burger' : 'hide'}>
+        <a className="navItem" href="/hannahakhtar.github.io">Home</a>
+        <a className="navItem" href="/hannahakhtar.github.io/about">About</a>
+        <a className="navItem" href="/hannahakhtar.github.io/portfolio">Portfolio</a>
+        <a className="navItem" href="/hannahakhtar.github.io/skills">Skills</a>
+        <a className="navItem" href="/hannahakhtar.github.io/contact">Contact</a>
       </div>
     </div>
-  </navbar>
+  </nav>
+
 }

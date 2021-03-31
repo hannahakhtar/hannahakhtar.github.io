@@ -1,8 +1,26 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
+import Profile from '../images/Profile.png'
 
 export default function About() {
   return <>
-  <h1>About</h1>
+    <section className="about">
+
+      <h2 className="aboutHeader is-size-1 mt-3">About Me</h2>
+
+      <div className="aboutBody">
+
+        <div className="aboutTextContainer">
+          <p  className="aboutText">As a developer with a background as a Cyber Security Account Manager, I have a keen interest in how technology is shaping the way we live and work. Coding was initially a hobby but the fulfilment and joy I gained from problem-solving and seeing the output of my work inspired me to study at General Assembly.
+          </p>
+          <p  className="aboutText">I am currently working at Zaizi as a Junior Software Engineer.</p>
+        </div>
+
+        <div className="aboutImageContainer">
+          <img src={Profile} alt="Hannah smiling" />
+        </div>
+
+      </div>
+
+    </section>
   </>
 }

@@ -2,7 +2,12 @@ import React from 'react'
 
 export default function Home() {
   return <>
-  <h1>Hannah Akhtar</h1>
-  <h3>Software Engineer</h3>
+    <section className="home is-fullheight-with-navbar">
+
+      <h1>Hannah Akhtar</h1>
+      <hr></hr>
+      <h3>Software Engineer</h3>
+
+    </section>
   </>
 }
