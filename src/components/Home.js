@@ -6,7 +6,7 @@ export default function Home() {
 
       <h1>Hannah Akhtar</h1>
       <hr></hr>
-      <h3>Software Engineer</h3>
+      <h3>Full-Stack Software Engineer</h3>
 
     </section>
   </>

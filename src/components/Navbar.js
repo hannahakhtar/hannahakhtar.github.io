@@ -8,7 +8,7 @@ export default function Navbar() {
     <div className="navbar">
       <Hamburger toggled={isOpen} toggle={setOpen} label="Show menu" />
       <div className={isOpen ? 'burger' : 'hide'}>
-        <a className="navItem" href="#home">Home</a>
+        <a className="navItem anchor" href="#home">Home</a>
         <a className="navItem" href="#about">About</a>
         <a className="navItem" href="#skills">Skills</a>
         <a className="navItem" href="#portfolio">Portfolio</a>
@@ -16,5 +16,4 @@ export default function Navbar() {
       </div>
     </div>
   </nav>
-
 }

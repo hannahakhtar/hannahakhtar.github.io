@@ -4,8 +4,6 @@
 $aBeeZee: 'ABeeZee', sans-serif;
 
 $linen: #fff1e6ff;
-
-
 $platinum: #e2e2dfff;
 $light-gray: #d2d2cfff;
 $champagne-pink: #e2cfc4ff;
@@ -17,7 +15,6 @@ $languid-lavender: #dbcdf0ff;
 $orchid-pink: #f2c6deff;
 $baby-pink: #f9c6c9ff;
 
-
 body, html {
   margin: 0;
 }
@@ -27,7 +24,7 @@ h1 {
 }
 
 h2 {
-  font-size: 80px;
+  font-size: 60px;
   margin: 20px;
 }
 
@@ -38,10 +35,9 @@ h3 {
 // ? Nav
 
 .navbar {
-  // background-color: $isabelline;
   position: fixed;
   width: 98%;
-  height: 5vh;
+  height: 8vh;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -51,11 +47,10 @@ h3 {
   color: black;
   text-decoration: none;
   font-size: 20px;
-  padding: 5px;
+  padding: 10px;
 }
 
 .navItem:hover {
-  font-size: 25px;
   color: blue;
 }
 
@@ -69,6 +64,7 @@ h3 {
   height: 100vh;
   font-family: $aBeeZee;
   background-color: $languid-lavender;
+  color: #1F1917;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,9 +81,9 @@ hr {
   min-height: 50vh;
   font-family: $aBeeZee;
   background-color: $beau-blue;
+  color: #1F1917;
   display: flex;
   flex-direction: column;
-  // align-items: center;
   justify-content: flex-start;
 }
 
@@ -120,7 +116,6 @@ img {
   margin: 20px;
   max-width: 80%;
   text-align: center;
-  // border: 5px black solid;
 }
 
 .aboutText {
@@ -133,6 +128,7 @@ img {
   height: 100vh;
   font-family: $aBeeZee;
   background-color: $light-cyan;
+  color: #1F1917;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -151,6 +147,7 @@ img {
   min-height: 100vh;
   font-family: $aBeeZee;
   background-color: $papaya-whip;
+  color: #1F1917;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -176,18 +173,18 @@ img {
   font-size: 100px;
   margin: 15px;
   border: none;
+  color: #1F1917;
 }
 
 .skillName {
   text-align: center;
   padding: 5px;
-  font-size: 10px;
+  font-size: 20px;
   opacity: 0;
 }
 
 .icon:hover {
   color: blue;
-  font-size: 110px;
   .skillName {
     opacity: 1;
   }
@@ -196,9 +193,9 @@ img {
 // ? Contact
 
 #contact {
-  // height: 50vh;
   font-family: $aBeeZee;
   background-color: $baby-pink;
+  color: #1F1917;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -209,14 +206,13 @@ img {
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  // justify-content: center;
   margin-bottom: 20px;
 }
 
 .contactIcon {
   font-size: 100px;
   margin: 10px;
-  color: black;
+  color: #1F1917;
 }
 
 a {
@@ -226,6 +222,7 @@ a {
 // ? Footer
 
 footer {
+  color: #1F1917;
   padding: 10px;
   margin: 5px;
 }

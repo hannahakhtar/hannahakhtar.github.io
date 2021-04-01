@@ -8,7 +8,7 @@ export default function Contact() {
     <div id="contact">
 
       <section>
-        <h2>Contact Me</h2>
+        <h2>Get in touch..</h2>
         <div className="contactIcons">
           <a href="mailto:hannahaakhtar@gmail.com">
             <AiOutlineMail className="contactIcon icon" alt="Link to email Hannah" />

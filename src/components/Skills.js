@@ -54,6 +54,12 @@ export default function Skills() {
           </div>
 
           <div className="icon">
+            <i class="devicon-flask-original"></i>
+            {/* <i class="devicon-flask-original colored"></i> */}
+            <div className="skillName">Flask</div>
+          </div>
+
+          <div className="icon">
             <i className="devicon-mongodb-plain"></i>
             {/* <i class="devicon-mongodb-plain colored"></i> */}
             <div className="skillName">MongoDB</div>
@@ -107,6 +113,12 @@ export default function Skills() {
             <i className="devicon-heroku-original"></i>
             {/* <i class="devicon-heroku-original colored"></i> */}
             <div className="skillName">Heroku</div>
+          </div>
+
+          <div className="icon">
+            <i class="devicon-visualstudio-plain"></i>
+            {/* <i class="devicon-visualstudio-plain colored"></i> */}
+            <div className="skillName">VSCode</div>
           </div>
 
         </div>

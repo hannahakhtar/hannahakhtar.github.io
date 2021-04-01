@@ -21,3 +21,8 @@ export default function App() {
   </>
 
 }
+
+// * TO DO:
+// * 1. sort nav bar when mobile
+// * 2. display projects using pagniation/animation - react-slick
+// * 3. general mobile styling
