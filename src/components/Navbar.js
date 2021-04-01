@@ -8,11 +8,11 @@ export default function Navbar() {
     <div className="navbar">
       <Hamburger toggled={isOpen} toggle={setOpen} label="Show menu" />
       <div className={isOpen ? 'burger' : 'hide'}>
-        <a className="navItem" href="/hannahakhtar.github.io">Home</a>
-        <a className="navItem" href="/hannahakhtar.github.io/about">About</a>
-        <a className="navItem" href="/hannahakhtar.github.io/portfolio">Portfolio</a>
-        <a className="navItem" href="/hannahakhtar.github.io/skills">Skills</a>
-        <a className="navItem" href="/hannahakhtar.github.io/contact">Contact</a>
+        <a className="navItem" href="#home">Home</a>
+        <a className="navItem" href="#about">About</a>
+        <a className="navItem" href="#skills">Skills</a>
+        <a className="navItem" href="#portfolio">Portfolio</a>
+        <a className="navItem" href="#contact">Contact</a>
       </div>
     </div>
   </nav>

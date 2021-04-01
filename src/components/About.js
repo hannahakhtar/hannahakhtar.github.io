@@ -3,7 +3,7 @@ import Profile from '../images/Profile.png'
 
 export default function About() {
   return <>
-    <section className="about">
+    <section id="about">
 
       <h2 className="aboutHeader is-size-1 mt-3">About Me</h2>
 
@@ -12,7 +12,7 @@ export default function About() {
         <div className="aboutTextContainer">
           <p  className="aboutText">As a developer with a background as a Cyber Security Account Manager, I have a keen interest in how technology is shaping the way we live and work. Coding was initially a hobby but the fulfilment and joy I gained from problem-solving and seeing the output of my work inspired me to study at General Assembly.
           </p>
-          <p  className="aboutText">I am currently working at Zaizi as a Junior Software Engineer.</p>
+          <p  className="aboutText">I am currently working at Zaizi as a Junior Full Stack Developer.</p>
         </div>
 
         <div className="aboutImageContainer">

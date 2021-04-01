@@ -1,18 +1,32 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
+import { AiOutlineMail } from 'react-icons/ai'
+
 
 export default function Contact() {
+
   return <>
-    <section className="contact">
+    <div id="contact">
 
-      <h2>Contact Me</h2>
-      <div className="contactIcons">
-        <i className=" contactIcon devicon-github-original colored" alt="Link to Hannah\'s GitHub"></i>
-        <i className="contactIcon devicon-linkedin-plain colored" alt="Link to Hannah\'s LinkedIn"></i>
-        {/* Link to email address */}
-      </div>
+      <section>
+        <h2>Contact Me</h2>
+        <div className="contactIcons">
+          <a href="mailto:hannahaakhtar@gmail.com">
+            <AiOutlineMail className="contactIcon icon" alt="Link to email Hannah" />
+          </a>
+          <a href="https://www.linkedin.com/in/hannahakhtar/" target="_blank" rel="noreferrer">
+            <i className="contactIcon devicon-linkedin-plain colored icon" alt="Link to Hannah\'s LinkedIn"></i>
+          </a>
+          <a href="https://github.com/hannahakhtar" target="_blank" rel="noreferrer">
+            <i className=" contactIcon devicon-github-original colored icon" alt="Link to Hannah\'s GitHub"></i>
+          </a>
 
+        </div>
+      </section>
 
-    </section>
+      <footer>
+        <small>Created by: Hannah Akhtar 2021</small>
+      </footer>
+
+    </div>
   </>
 }
