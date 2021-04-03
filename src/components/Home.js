@@ -9,5 +9,6 @@ export default function Home() {
       <h3>Full-Stack Software Engineer</h3>
 
     </section>
+    
   </>
 }
