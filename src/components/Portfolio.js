@@ -43,12 +43,12 @@ export default function Portfolio() {
                 <div className="portfolioImageContainer">
                   <img className="portfolioImage" src={project.imgOne} alt='one' />
                 </div>
-                <div className="portfolioImageContainer">
+                {/* <div className="portfolioImageContainer">
                   <img className="portfolioImage" src={project.imgTwo} alt='two' />
                 </div>
                 <div className="portfolioImageContainer">
                   <img className="portfolioImage" src={project.imgThree} alt='three' />
-                </div>
+                </div> */}
               </div>
             </div>
           })}

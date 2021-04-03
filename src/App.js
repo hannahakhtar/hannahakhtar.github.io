@@ -19,6 +19,3 @@ export default function App() {
     <Contact />
   </>
 }
-
-// * TO DO:
-// * 3. general mobile styling
