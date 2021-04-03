@@ -21,5 +21,4 @@ export default function App() {
 }
 
 // * TO DO:
-// * 1. sort nav bar when mobile
 // * 3. general mobile styling
