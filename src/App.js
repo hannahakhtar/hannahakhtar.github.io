@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './App.scss';
+import './App.scss'
 
 import Home from '../src/components/Home'
 import Navbar from '../src/components/Navbar'
@@ -10,7 +10,6 @@ import Skills from '../src/components/Skills'
 import Contact from '../src/components/Contact'
 
 export default function App() {
-
   return <>
     <Navbar />
     <Home />
@@ -19,10 +18,8 @@ export default function App() {
     <Portfolio />
     <Contact />
   </>
-
 }
 
 // * TO DO:
 // * 1. sort nav bar when mobile
-// * 2. display projects using pagniation/animation - react-slick
 // * 3. general mobile styling

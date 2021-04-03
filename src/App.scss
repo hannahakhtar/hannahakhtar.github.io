@@ -1,4 +1,6 @@
 
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 
 $aBeeZee: 'ABeeZee', sans-serif;
@@ -14,6 +16,8 @@ $beau-blue: #c6def1ff;
 $languid-lavender: #dbcdf0ff;
 $orchid-pink: #f2c6deff;
 $baby-pink: #f9c6c9ff;
+$hover:#ff4d4d;
+
 
 body, html {
   margin: 0;
@@ -51,7 +55,7 @@ h3 {
 }
 
 .navItem:hover {
-  color: blue;
+  color: $hover;
 }
 
 .hamburger-react {
@@ -101,10 +105,9 @@ hr {
   flex: 0.4;
   max-width: 120px;
   height: 150px;
-  // border: 5px black solid;
 }
 
-img {
+.aboutImg {
   max-width: 100%;
   height: auto;
   overflow: hidden;
@@ -134,11 +137,81 @@ img {
   align-items: center;
 }
 
+.slick-slider {
+  height: 100%;
+}
+
 .portfolioHolder {
   width: 80%;
   height: 80%;
   margin-bottom: 50px;
+  border-radius: 20px;
   background-color: $linen;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolioText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolioImages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.portfolioImageContainer {
+  display: flex;
+  justify-content: center;
+  height: 280px;
+  width: 280px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.portfolioImage {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.portfolioLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.portfolioLinkDiv {
+  padding: 0px;
+  font-size: 10px;
+  opacity: 0;
+}
+
+.portfolioLink {
+  text-align: center;
+  font-size: 40px;
+  margin: 10px;
+  color: black;
+}
+
+.portfolioLink:hover {
+  color:$hover;
+  .portfolioLinkDiv {
+    opacity: 1;
+  }
+}
+
+.portfolioHeader {
+  margin: 10px 0px -0px 0px;
+  font-size: 40px;
+}
+
+.portfolioPara {
+  font-size: 20px;
 }
 
 // ? Skills
@@ -163,7 +236,7 @@ img {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  margin-top: 50px;
+  margin-top: 40px;
   width: 60%;
 }
 
@@ -184,7 +257,7 @@ img {
 }
 
 .icon:hover {
-  color: blue;
+  color: $hover;
   .skillName {
     opacity: 1;
   }
@@ -227,4 +300,7 @@ footer {
   margin: 5px;
 }
 
-// ? Back to top button
+
+// @media only screen and (max-width: 600px) {
+
+// }
