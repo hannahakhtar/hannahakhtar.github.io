@@ -1,0 +1,393 @@
+
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+$aBeeZee: 'ABeeZee', sans-serif;
+
+$linen: #fff1e6ff;
+$platinum: #e2e2dfff;
+$light-gray: #d2d2cfff;
+$champagne-pink: #e2cfc4ff;
+$unbleached-silk: #f7d9c4ff;
+$papaya-whip: #faedcbff;
+$light-cyan: #c9e4deff;
+$beau-blue: #c6def1ff;
+$languid-lavender: #dbcdf0ff;
+$orchid-pink: #f2c6deff;
+$baby-pink: #f9c6c9ff;
+$hover:#ff4d4d;
+
+
+body, html {
+  margin: 0;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 60px;
+  margin: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 40px;
+  text-align: center;
+}
+
+// ? Nav
+
+.navbar {
+  position: fixed;
+  width: 98%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navItem {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.navItem:hover {
+  color: $hover;
+}
+
+.burger {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hide {
+  display: none;
+}
+
+// ? Home
+
+#home {
+  height: 100vh;
+  font-family: $aBeeZee;
+  background-color: $languid-lavender;
+  color: #1F1917;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  color: black;
+  width: 50%;
+}
+// ? About
+
+#about {
+  min-height: 50vh;
+  font-family: $aBeeZee;
+  background-color: $beau-blue;
+  color: #1F1917;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.aboutHeader {
+  text-align: center;
+  margin: 25px;
+}
+
+.aboutBody {
+  display: flex;
+  align-items: center;
+}
+
+.aboutImageContainer {
+  flex: 0.4;
+  max-width: 120px;
+  height: 150px;
+}
+
+.aboutImg {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.aboutTextContainer {
+  flex: 1;
+  margin: 20px;
+  max-width: 80%;
+  text-align: center;
+}
+
+.aboutText {
+  margin: 30px;
+}
+
+// ? Portfolio
+
+#portfolio {
+  height: 100vh;
+  font-family: $aBeeZee;
+  background-color: $light-cyan;
+  color: #1F1917;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slick-slider {
+  height: 100%;
+}
+
+.portfolioHolder {
+  width: 80%;
+  height: 80%;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  background-color: $linen;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolioText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolioImages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.portfolioImageContainer {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 450px;
+  margin: 10px;
+}
+
+.portfolioImage {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.portfolioLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.portfolioLinkDiv {
+  padding: 0px;
+  font-size: 10px;
+  opacity: 0;
+}
+
+.portfolioLink {
+  text-align: center;
+  font-size: 40px;
+  margin: 10px;
+  color: black;
+}
+
+.portfolioLink:hover {
+  color:$hover;
+  .portfolioLinkDiv {
+    opacity: 1;
+  }
+}
+
+.portfolioHeader {
+  margin: 10px 0px -0px 0px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.portfolioPara {
+  font-size: 20px;
+  text-align: center;
+}
+
+// ? Skills
+
+#skills {
+  min-height: 100vh;
+  font-family: $aBeeZee;
+  background-color: $papaya-whip;
+  color: #1F1917;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconsBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconsContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 40px;
+  width: 60%;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  font-size: 100px;
+  margin: 15px;
+  border: none;
+  color: #1F1917;
+}
+
+.skillName {
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  opacity: 0;
+}
+
+.icon:hover {
+  color: $hover;
+  .skillName {
+    opacity: 1;
+  }
+}
+
+// ? Contact
+
+#contact {
+  font-family: $aBeeZee;
+  background-color: $baby-pink;
+  color: #1F1917;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactIcons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contactIcon {
+  font-size: 100px;
+  margin: 10px;
+  color: #1F1917;
+}
+
+a {
+  text-decoration: none;
+}
+
+// ? Footer
+
+footer {
+  color: #1F1917;
+  padding: 10px;
+  margin: 5px;
+}
+
+// ? Media queries
+
+@media only screen and (max-width: 600px) {
+
+  .icon {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    margin: 15px;
+  }
+  
+  .skillName {
+    text-align: center;
+    padding: 5px;
+    font-size: 10px;
+    opacity: 0;
+  }
+
+  .aboutBody {
+    flex-direction: column;
+  }
+
+  .aboutImg {
+    margin-bottom: 10px;
+  }
+
+  .portfolioPara {
+    font-size: 10px;
+    text-align: center;
+    margin: 10px 5px 5px 5px;
+  }
+
+  .portfolioImageContainer {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+  }  
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .icon {
+    display: flex;
+    flex-direction: column;
+    font-size: 120px;
+    margin: 15px;
+  }
+
+  .aboutBody {
+    flex-direction: column;
+  }
+
+  .aboutImg {
+    margin-bottom: 10px;
+  }
+
+  .portfolioHeader {
+    margin-top: 30px;
+    font-size: 50px;
+  }
+
+  .portfolioPara {
+    font-size: 35px;
+    text-align: center;
+    margin: 45px 5px 5px 5px;
+  }
+
+  .portfolioImageContainer {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 450px;
+    margin-top: 60px;
+  }  
+
+  .portfolioLink {
+    margin: 20px;
+  }
+}
