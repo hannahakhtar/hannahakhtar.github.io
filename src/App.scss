@@ -92,7 +92,7 @@ hr {
 // ? About
 
 #about {
-  min-height: 50vh;
+  min-height: 70vh;
   font-family: $aBeeZee;
   background-color: $beau-blue;
   color: #1F1917;
@@ -138,7 +138,7 @@ hr {
 // ? Portfolio
 
 #portfolio {
-  height: 100vh;
+  height: 120vh;
   font-family: $aBeeZee;
   background-color: $light-cyan;
   color: #1F1917;
@@ -177,7 +177,7 @@ hr {
 .portfolioImageContainer {
   display: flex;
   justify-content: center;
-  height: 300px;
+  height: 350px;
   width: 450px;
   margin: 10px;
 }
@@ -277,6 +277,7 @@ hr {
 // ? Contact
 
 #contact {
+  height: 60vh;
   font-family: $aBeeZee;
   background-color: $baby-pink;
   color: #1F1917;
@@ -337,6 +338,16 @@ footer {
     margin-bottom: 10px;
   }
 
+  .portfolioHolder {
+    width: 60%;
+    height: 80%;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    background-color: $linen;
+    display: flex;
+    flex-direction: column;
+  }
+
   .portfolioPara {
     font-size: 10px;
     text-align: center;
@@ -374,17 +385,17 @@ footer {
   }
 
   .portfolioPara {
-    font-size: 35px;
+    font-size: 20px;
     text-align: center;
-    margin: 45px 5px 5px 5px;
+    margin: 30px 5px 5px 5px;
   }
 
   .portfolioImageContainer {
     display: flex;
     justify-content: center;
-    height: 350px;
-    width: 450px;
-    margin-top: 60px;
+    height: 300px;
+    width: 400px;
+    margin-top: 15px;
   }  
 
   .portfolioLink {
