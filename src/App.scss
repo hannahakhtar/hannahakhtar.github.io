@@ -154,11 +154,12 @@ hr {
 .portfolioHolder {
   width: 80%;
   height: 80%;
-  margin-bottom: 50px;
+  // margin-bottom: 50px;
   border-radius: 20px;
   background-color: $linen;
   display: flex;
   flex-direction: column;
+  align-self: center;
 }
 
 .portfolioText {
@@ -277,7 +278,7 @@ hr {
 // ? Contact
 
 #contact {
-  height: 60vh;
+  height: 50vh;
   font-family: $aBeeZee;
   background-color: $baby-pink;
   color: #1F1917;
@@ -309,7 +310,7 @@ a {
 footer {
   color: #1F1917;
   padding: 10px;
-  margin: 5px;
+  margin: 15px 5px 5px;
 }
 
 // ? Media queries
@@ -338,14 +339,14 @@ footer {
     margin-bottom: 10px;
   }
 
+  #portfolio {
+    height: 100vh;
+  }
+
   .portfolioHolder {
+    margin-top: 40px;
     width: 80%;
     height: 60%;
-    margin-bottom: 50px;
-    border-radius: 20px;
-    background-color: $linen;
-    display: flex;
-    flex-direction: column;
   }
 
   .portfolioPara {
