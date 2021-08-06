@@ -18,7 +18,7 @@ const projects = [
   {
     name: 'Garms',
     shortDescription: 'Group Project | 1 week',
-    longDescription: 'Project 4: Garms is a full stack e-commerce app, built using Python, Flask, PostgreSQL and React.',
+    longDescription: 'Project 4: Garms is a full stack e-commerce app, built using Python, Flask, PostgreSQL and React in one week. I took ownership of front end functionality and styling, the results page and the single item feature, as well as joint ownership of the back end.',
     github: 'https://github.com/hannahakhtar/project-4',
     live: 'https://garms-shopping.herokuapp.com/',
     imgOne: garmsOne,
@@ -28,7 +28,7 @@ const projects = [
   {
     name: 'Dérive',
     shortDescription: 'Group Project | 1 week',
-    longDescription: 'Project 3: Dérive is a full stack travel app, built using MongoDB, Express, Node.js and React.',
+    longDescription: 'Project 3: Dérive is a full stack travel app, built using MongoDB, Express, Node.js and React in one week. I took ownership of registration, searching and filtering countries, friend search and shared ownership of back end with my (two) peers.',
     github: 'https://github.com/hannahakhtar/project-3',
     live: 'https://deriveapp.herokuapp.com/',
     imgOne: dériveOne,
@@ -38,7 +38,7 @@ const projects = [
   {
     name: 'InsBARation',
     shortDescription: 'Paired Project | 2 days',
-    longDescription: 'Project 2: InsBARation is a front end app that consumes a public API, and built using HTML, CSS and React.',
+    longDescription: 'Project 2: InsBARation is a front end app that consumes a public API, and built using HTML, CSS and React. This was a hackathon project in a pair, taking place over two days.',
     github: 'https://github.com/hannahakhtar/project-2',
     live: 'https://hannahakhtar.github.io/project-2/',
     imgOne: inspOne,
@@ -48,7 +48,7 @@ const projects = [
   {
     name: 'Space Invaders',
     shortDescription: 'Solo Project | 1 week',
-    longDescription: 'Project 1: A recreation of the arcade game, Space Invaders. Built using HTML, CSS and Vanilla JavaScript.',
+    longDescription: 'Project 1: A recreation of the arcade game, Space Invaders. Built using HTML, CSS and Vanilla JavaScript over the course of a week.',
     github: 'https://github.com/hannahakhtar/project-1',
     live: 'https://hannahakhtar.github.io/project-1/',
     imgOne: siOne,

@@ -92,7 +92,6 @@ export default function Skills() {
             <div className="skillName">npm</div>
           </div>
 
-
           <div className="icon">
             <i className="devicon-heroku-original"></i>
             <div className="skillName">Heroku</div>
