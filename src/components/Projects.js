@@ -18,7 +18,7 @@ const projects = [
   {
     name: 'Garms',
     shortDescription: 'Group Project | 1 week',
-    longDescription: 'Project 4: Garms is a full stack e-commerce app, built using Python, Flask, PostgreSQL and React in one week. I took ownership of front end functionality and styling, the results page and the single item feature, as well as joint ownership of the back end.',
+    longDescription: 'Project 4: Garms is a full stack e-commerce app, built using Python, Flask, PostgreSQL and React. I took ownership of front end functionality and styling, the results page and the single item feature, with joint ownership of the back end.',
     github: 'https://github.com/hannahakhtar/project-4',
     live: 'https://garms-shopping.herokuapp.com/',
     imgOne: garmsOne,
